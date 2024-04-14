@@ -141,7 +141,7 @@ nav .icons button:hover {
     padding-bottom: 3rem;
     font-size: 2rem;
     color: rgb(12, 12, 12);
-    margin-left: 20%;
+    margin-left: 40%;
 }
 
 .hd-pro span,
@@ -166,10 +166,11 @@ nav .icons button:hover {
 .category img,
 .feature img {
     width: 100%;
-    height: 150px;
+    height: 200px;
     object-fit: cover;
     cursor: pointer;
     transition: 0.2s ease;
+    border-radius: 20%;
 }
 
 .product img:hover,
@@ -328,7 +329,36 @@ nav .icons button:hover {
     .categories,
     .features {
         grid-template-columns: repeat(1, 1fr);
+        /* width: 70%; */
+        height: 90%;
+        /* padding-left: 100px; */
     }
+    h3{
+        width: 100%;
+    }
+    .home .content h3 {
+        color: black;
+        font-size: 2rem;
+        margin-left: 2%;
+        width: 100%;
+        /* margin-right: 50%; */
+    }
+    .hd-pro,
+    .hd-c,
+    .hd-f {
+        text-align: center;
+        padding: 2rem 0;
+        padding-bottom: 3rem;
+        font-size: 2rem;
+        /* color: rgb(12, 12, 12); */
+        margin-left: 10%;
+    }
+    nav .icons input {
+        /* padding: .5rem;
+        border-radius: .5rem; */
+        display: none;
+    }
+    
 }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
