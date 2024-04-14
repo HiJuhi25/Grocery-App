@@ -124,3 +124,31 @@ nav .icons button:hover {
     cursor: pointer;
     transition: 0.2s ease;
 }
+
+/* Media Queries */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* Adjustments for tablets and larger screens */
+    nav {
+        padding: 1% 5%; /* Increase padding */
+    }
+
+    h1 {
+        font-size: large;
+    }
+
+    nav ul a {
+        font-size: large;
+    }
+
+    .btn1 {
+        margin-left: auto; /* Align to the right */
+        margin-right: 5%; /* Add space from the right */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Adjustments for laptops and larger screens */
+    .btn1 {
+        margin-left: 65rem; /* Example adjustment for large screens */
+    }
+}

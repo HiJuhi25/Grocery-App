@@ -23,6 +23,18 @@
         .btn {
             text-align: center;
         }
+
+        @media only screen and (max-width: 480px) {
+            .card {
+                width: 80%; /* Adjust width for smaller screens */
+            }
+        }
+
+        @media only screen and (min-width: 481px) and (max-width: 767px) {
+            .card {
+                width: 60%; /* Adjust width for medium-sized screens */
+            }
+        }
     </style>
 </head>
 
@@ -30,7 +42,6 @@
     <div class="container-fluid h-custom">
         <h1 class="logo text-center"> <i class="fas fa-shopping-basket"></i>DownTown Fresh</h1>
         <div class="row d-flex justify-content-center align-items-center h-200">
-
             <div class="card bg-glass mt-md-4 " style="border-radius:1rem;">
                 <form>
                     <div class="form-group">
@@ -53,8 +64,6 @@
             </div>
         </div>
     </div>
-
-
 </body>
 
 </html>
